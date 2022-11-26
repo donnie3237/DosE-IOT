@@ -1,0 +1,68 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(42, 2, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.from{
+    width: 70vw;
+    height: 80vh;
+    min-height: 600px;
+    background-color: rgba(0, 0, 0);
+    border-radius: 15px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 10px white;
+}
+.from input{
+    width: 60%;
+    height: 40px;
+    margin: 10px;
+    outline: none;
+    color: white;
+    border: none;
+    padding:0px 20px;
+}
+.from .one{
+    background-color: blue;
+}
+.from .two{
+    background-color: rgb(255, 0, 0);
+}
+.from h1{
+    margin-top: 70px;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 2.5em;
+}
+.absolu{
+    width: 50%;
+    height: 10vh;
+    background-color: black;
+    position: absolute;
+    top: -7%;
+    display: flex;
+}
+.absolu p{
+    color: white;
+    margin-left: 10%;
+}
+.absolu img{
+    border-radius: 50%;
+    height: 50%;
+    margin-left: 20%;
+    margin-top: 10px;
+}
+.from button{
+    width: 20vw;
+    height: 40px;
+    margin: 20px 0;
+}
+hr{
+    width: 80%;
+    margin: 30px 0;
+}
