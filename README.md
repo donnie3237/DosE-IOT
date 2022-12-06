@@ -21,6 +21,6 @@
 <p align="center">สำเร็จแล้ว 1% : Finished 1%</p>
 <div align="center" >
 <a  href="https://drive.google.com/file/d/1VJ5Ag0BzugNpBkaY5IbyykULC8T9lqZg/view?usp=share_link">Mobile-App(Android,IOS)</a><br/>
-<a  href="https://drive.google.com/file/d/1MZQDPwD7A7bLGYw39D_nji0y6JgRd2Sx/view?usp=share_link">Desktop-App Versin (Windows,MacOS,Linux)</a><br/>
+<a  href="https://drive.google.com/file/d/1MZQDPwD7A7bLGYw39D_nji0y6JgRd2Sx/view?usp=share_link">Desktop-App Version (Windows,MacOS,Linux)</a><br/>
   <a  href="https://crud-server-7mzw.vercel.app/">Server</a><br/>
 </div>
