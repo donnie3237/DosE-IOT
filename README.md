@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+<h1 align="center">Dose-IOT</h1>
+<br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">Javascript-internetOfThings-Application-NodeRed</h3>
+<div align="center">
 
-## Available Scripts
+  <br/>
+  <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/electron/electron-original.svg" alt="ElectronJS" width="45" height="45"/>
+  <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/express/express-original.svg" alt="ExpressJS" width="45" height="45"/>
+    <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg" alt="ReactJS" width="45" height="45"/>
+  <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="45" height="45"/>
+    <img src="https://miro.medium.com/max/2400/0*BRl-uL7N9LF-1hiD.png" alt="MongoDB" width="45" height="45"/>
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="45" height="45"/>
+  <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/heroku/heroku-original.svg" alt="Heroku" width="45" height="45"/>
+  <img src="https://codelabs.developers.google.com/static/codelabs/tensorflowjs-object-detection/img/1aee0ede85885520.png" alt="tfjs" width="45" height="45"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Node-red-icon.png" alt="nodered" width="45" height="45"/>
+ </div>
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br/><br/>
+<h2 align="center">Status</h2>
+<p align="center">สำเร็จแล้ว 1% : Finished 1%</p>
+<div align="center" >
+<a  href="https://drive.google.com/file/d/1VJ5Ag0BzugNpBkaY5IbyykULC8T9lqZg/view?usp=share_link">Mobile-App(Android,IOS)</a><br/>
+<a  href="https://drive.google.com/file/d/1MZQDPwD7A7bLGYw39D_nji0y6JgRd2Sx/view?usp=share_link">Desktop-App Versin (Windows,MacOS,Linux)</a><br/>
+  <a  href="https://crud-server-7mzw.vercel.app/">Server</a><br/>
+</div>
