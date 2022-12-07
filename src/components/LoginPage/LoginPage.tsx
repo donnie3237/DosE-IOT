@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './login.css'
 
 function LoginPage() {
@@ -10,9 +10,9 @@ function LoginPage() {
             <input type="text" className='one' placeholder='username' />
             <input type="password" name="" id="" className='two' placeholder='password'/>
             <button>Login</button>
-            <hr />
+            <div className="hr"></div>
             <p>have no Account?</p>
-            <a href="">Register</a>
+            <NavLink to='/register' className='regis'>Register</NavLink>
       </div>
     </div>
   )

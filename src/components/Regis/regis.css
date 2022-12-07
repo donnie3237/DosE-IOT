@@ -1,0 +1,39 @@
+.regispage{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.regispage .regisfrom{
+    background-color: black;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.regisfrom input{
+    width: 80%;
+    outline: none;
+    border: 1px solid white;
+    margin: 5px 0;
+    padding: 10px 0;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.regisfrom h1{
+    color: white;
+}
+.cbx{
+    width: 80%;
+    height: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+.eicbx{
+    background-color: red;
+}
