@@ -1,76 +1,3 @@
-/* .login{
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(42, 2, 40);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.from{
-    width: 80vw;
-    height: 60%;
-    min-height: 600px;
-    background-color: rgba(0, 0, 0);
-    border-radius: 15px;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    position: relative;
-    box-shadow: 0 0 10px white;
-}
-.from input{
-    width: 60%;
-    height: 40px;
-    margin: 15px 0;
-    outline: none;
-    color: white;
-    border: 1px solid white;
-    padding:0px 20px;
-}
-.from .one{
-    background-color: blue;
-}
-.from .two{
-    background-color: rgb(255, 0, 0);
-}
-.from h1{
-    margin-top: 70px;
-    letter-spacing: 3px;
-    color: white;
-    font-size: 2.5em;
-}
-.absolu{
-    width: 50%;
-    height: 10vh;
-    background-color: black;
-    position: absolute;
-    top: -7%;
-    display: flex;
-}
-.absolu p{
-    color: white;
-    margin-left: 10%;
-}
-.absolu img{
-    border-radius: 50%;
-    height: 50%;
-    margin-left: 10%;
-    margin-top: 10px;
-}
-.from button{
-    width: calc(60% + 42px);
-    height: 40px;
-    margin: 20px 0;
-    font-size: 16px;
-    letter-spacing: 4px;
-}
-hr{
-    width: 80%;
-    margin: 30px 0;
-}
-p{
-    color: white;
-} */
 .login{
     width: 100vw;
     height: 100vh;
@@ -81,14 +8,11 @@ p{
 }
 .from{
     background-color: white;
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.from h1{
-
 }
 .from input{
     width: 80%;
