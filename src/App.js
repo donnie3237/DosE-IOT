@@ -6,6 +6,7 @@ import LoginPage from './components/LoginPage/LoginPage.tsx';
 import MainPAge from './components/MainPage/MainPAge.tsx';
 import RegisTer from './components/Regis/RegisTer.tsx';
 import 'react-toastify/dist/ReactToastify.css';
+import Terms from './components/Terms/Terms.tsx';
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
           <Route path='/' element={<LoginPage/>}></Route>
           <Route path='/register' element={<RegisTer/>}></Route>
           <Route path='/iot' exact element={<MainPAge/>}></Route>
+          <Route path='/iot/terms' element={<Terms/>}></Route>
         </Routes>
       </Router>
       <ToastContainer />
