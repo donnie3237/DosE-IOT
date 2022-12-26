@@ -14,7 +14,7 @@
         align-items: center;
         justify-content: center;
         input{
-            width: 80%;
+            width: 70%;
             outline: none;
             border: 1px solid white;
             margin: 5px 0;
@@ -25,6 +25,9 @@
         }
         h1{
             color: white;
+            letter-spacing: 2px;
+            border-bottom: 2px solid rgb(255, 255, 255);
+            padding: 5vh 10vw;
         }
         p{
             color: white;
@@ -34,7 +37,7 @@
             }
         }
         .regis-btn{
-            width: calc(80vw + 10px);
+            width: calc(70vw + 10px);
             height: 35px;
             background-color: white;
             text-decoration: none;
@@ -42,10 +45,10 @@
             align-items: center;
             justify-content: center;
             color: black;
-
+            cursor: pointer;
         }
         hr{
-            width: 80vw;
+            width: 70vw;
             border: 1px solid white;
             background-color: white;
             margin: 3vh 0 ;
@@ -58,7 +61,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-left: -35vw;
+    margin-left: -24vw;
     p{
         color: white;
         width: 90%;
