@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {  NavLink, useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify';
 import './regis.scss'
-
+import axios from 'axios';
 function RegisTer() {
   const [name ,setName] = useState<string>("");
   const [username ,setUsername] = useState<string>("")
@@ -22,8 +22,15 @@ function RegisTer() {
       toast.warn("please agree terms of servie")
     }
     else{
-      Navigate("/iot")
+      axios.post('https://iot-server-d3ht.onrender.com/register', 
+        {
+          name:name,
+          username:username,
+          password:password
+        }
+      )
     }
+    Navigate("/iot")
   }
   return (
     <div className='regispage'>
@@ -55,7 +62,7 @@ function RegisTer() {
               <input type="checkbox" name="" id="" onClick={(e)=>{
                 setCheck((prev)=> !prev)
               }}  />
-              <p>Agree with terms of service <NavLink to="/iot/terms">Terms</NavLink></p>
+              <p>Agree with terms of service <NavLink to="/register/terms">Terms</NavLink></p>
             </div>
             <a onClick={Register} className='regis-btn'>Register</a>
             <hr />

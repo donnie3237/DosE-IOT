@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import './login.scss';
+
 function LoginPage() {
   const [username ,setUsername] = useState<string>("");
   const [password , setPassword] = useState<string>("");

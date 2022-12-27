@@ -15,10 +15,10 @@ function App() {
           <Route path='/' element={<LoginPage/>}></Route>
           <Route path='/register' element={<RegisTer/>}></Route>
           <Route path='/iot' exact element={<MainPAge/>}></Route>
-          <Route path='/iot/terms' element={<Terms/>}></Route>
+          <Route path='/register/terms' element={<Terms/>}></Route>
         </Routes>
       </Router>
-      <ToastContainer />
+      <ToastContainer autoClose="1000"/>
     </div>
   );
 }
