@@ -1,1 +1,1 @@
-export const APiURL = "http://localhost:8081/" ;
+export const APiURL = "https://dose-iot.cyclic.app/" ;
