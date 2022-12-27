@@ -1,1 +1,1 @@
-export const APiURL = "https://dose-iot.cyclic.app/" ;
+export const APiURL = "https://iot-server-d3ht.onrender.com/" ;
