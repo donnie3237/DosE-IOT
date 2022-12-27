@@ -1,10 +1,12 @@
 .mainPage{
     background-color: black;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    overflow: hidden;
     .user{
         background-color: green;
-        margin-top: 75px;
+        margin-top: 85px;
+        padding: 2vh 0;
         p{
             color: white;
         }
@@ -19,13 +21,12 @@
             bottom: -75px;
             left: 50%;
             border-radius: 50%;
-            background-color: green;
-            border: 2px solid blue;
+            border: 3px solid rgb(0, 0, 0);
             transform: translateX(-50%);
         }
     }
     .device{
-        margin: 100px auto;
+        margin: 20px auto;
         width: 80vw;
         min-height: 200px;
         .dev{
@@ -33,6 +34,19 @@
             height: 100px;
             background-color: white;
             margin: 20px 0;
+        }
+    }
+    .add{
+        width: 80vw;
+        height: 100px;
+        background-color: orange;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 5em;
+        a{
+            text-decoration: none;
+            color: black;
         }
     }
 }

@@ -3,6 +3,8 @@ import {  NavLink, useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify';
 import './regis.scss'
 import axios from 'axios';
+import { APiURL } from '../../api.js';
+
 function RegisTer() {
   const [name ,setName] = useState<string>("");
   const [username ,setUsername] = useState<string>("")
@@ -22,18 +24,20 @@ function RegisTer() {
       toast.warn("please agree terms of servie")
     }
     else{
-      ()=>{axios.post('http://localhost:8081/register', 
+      axios.post(`${APiURL}register`, 
         {
           name:name,
           username:username,
           password:password
         }
-      ).then((res)=>{
-        console.log(res)
-      }
-      )
-      toast.success(`${name} has been created!!`)
-      Navigate('/')
+      ).then((response)=>{
+        if(response.data == 'รหัสซ้ำ'){
+          toast.warn(`${username} มีผุ้ใช้อยู่แล้ว`)
+        }else{
+          toast.success(`${name} has been created!!`);
+          Navigate('/')
+        }
+      })
     }
   }
   return (
@@ -58,12 +62,12 @@ function RegisTer() {
             onChange={(e)=>{
               setPassword(e.target.value)
             }}/>
-            <input type="password" name="" id="" placeholder='confirm password'
+            <input type="password" placeholder='confirm password'
             onChange={(e)=>{
               setPassword2(e.target.value)
             }}/>
             <div className="cbx">
-              <input type="checkbox" name="" id="" onClick={(e)=>{
+              <input type="checkbox" onClick={(e)=>{
                 setCheck((prev)=> !prev)
               }}  />
               <p>Agree with terms of service <NavLink to="/register/terms">Terms</NavLink></p>
