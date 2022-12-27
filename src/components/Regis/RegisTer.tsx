@@ -22,15 +22,19 @@ function RegisTer() {
       toast.warn("please agree terms of servie")
     }
     else{
-      axios.post('https://iot-server-d3ht.onrender.com/register', 
+      ()=>{axios.post('http://localhost:8081/register', 
         {
           name:name,
           username:username,
           password:password
         }
+      ).then((res)=>{
+        console.log(res)
+      }
       )
+      toast.success(`${name} has been created!!`)
+      Navigate('/')
     }
-    Navigate("/iot")
   }
   return (
     <div className='regispage'>
